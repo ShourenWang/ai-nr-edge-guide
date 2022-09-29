@@ -1,0 +1,61 @@
+/home/shared1/nightowls_validation/58c5812cbc260137e096966f.png 349,227,369,268,0 645,239,666,279,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969672.png 344,231,364,272,0 654,241,678,282,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969674.png 341,229,361,270,0 659,238,684,280,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969675.png 340,229,360,270,0 661,237,687,280,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969676.png 338,229,358,270,0 667,241,688,282,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969677.png 337,228,360,270,0 668,239,689,281,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969678.png 336,227,358,270,0 671,238,692,281,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969679.png 335,226,356,269,0 675,237,696,281,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967a.png 332,226,355,272,0 679,236,700,281,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967b.png 331,225,354,272,0 682,236,703,281,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967c.png 328,225,352,273,0 686,234,707,280,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967d.png 326,226,352,274,0 689,234,710,280,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967e.png 324,226,349,273,0 694,237,715,283,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096967f.png 323,229,348,277,0 698,240,720,287,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969680.png 320,231,344,280,0 702,244,724,291,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969681.png 320,232,342,283,0 707,245,729,293,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969682.png 318,232,342,284,0 711,242,734,288,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969683.png 318,230,340,282,0 718,237,738,284,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969684.png 311,228,339,281,0 723,235,744,284,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969685.png 310,227,336,281,0 509,230,588,268,3
+/home/shared1/nightowls_validation/58c5812cbc260137e096968a.png 298,231,324,288,0 512,225,567,268,3 585,246,600,276,3
+/home/shared1/nightowls_validation/58c5812cbc260137e096968b.png 294,232,322,291,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096968c.png 291,233,319,291,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096968d.png 286,232,318,292,0 763,242,791,272,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096968e.png 283,231,311,291,0 770,242,798,287,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096968f.png 282,228,309,291,0 775,242,803,303,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969690.png 276,226,306,291,0 783,242,811,303,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969691.png 272,225,302,291,0 791,241,819,302,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969692.png 267,222,296,292,0 799,239,826,299,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969693.png 260,220,293,289,0 807,235,834,297,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969694.png 254,218,288,290,0 813,233,842,297,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969695.png 250,218,284,290,0 822,237,851,301,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969696.png 244,220,272,295,0 832,240,860,301,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969697.png 237,219,266,297,0
+/home/shared1/nightowls_validation/58c5812cbc260137e0969698.png 232,221,262,300,0 534,222,593,276,3
+/home/shared1/nightowls_validation/58c5812cbc260137e0969699.png 225,223,256,304,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096969a.png 218,225,250,308,0 284,220,303,316,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096969b.png 211,224,243,309,0 271,223,302,318,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096969c.png 203,223,237,310,0 267,226,296,318,0 520,241,601,285,3
+/home/shared1/nightowls_validation/58c5812cbc260137e096969d.png 195,222,219,312,0 258,226,292,318,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096969e.png 251,221,288,315,0
+/home/shared1/nightowls_validation/58c5812cbc260137e096969f.png 239,212,279,310,0
+/home/shared1/nightowls_validation/58c5812cbc260137e09696a0.png 232,206,273,307,0 939,254,974,332,0
+/home/shared1/nightowls_validation/58c5812cbc260137e09696a1.png 222,205,269,309,0 949,249,985,330,0
+/home/shared1/nightowls_validation/58c5812cbc260137e09696a2.png 214,207,261,314,0 966,249,1002,331,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a3.png 205,207,249,317,0 982,248,1018,332,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a4.png 190,207,240,323,0 998,247,1035,334,3
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a5.png 174,207,227,323,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a6.png 91,207,138,328,0 160,207,218,332,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a7.png 71,207,122,333,0 149,205,209,335,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a8.png 48,208,105,338,0 142,201,198,338,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696a9.png 22,208,85,344,0 126,198,184,340,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696aa.png -1,204,65,346,0 103,197,167,346,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696ab.png -27,200,43,349,3 83,195,152,349,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696ac.png -56,195,18,352,3 62,196,131,355,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696ad.png -80,187,-12,354,3 42,193,109,362,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696ae.png -80,187,-38,354,3 19,189,84,365,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696af.png -17,184,59,374,0
+/home/shared1/nightowls_validation/58c5812dbc260137e09696b0.png -52,176,25,380,3
+/home/shared1/nightowls_validation/58c5812dbc260137e09696b1.png -80,172,-7,389,3
+/home/shared1/nightowls_validation/58c5812dbc260137e09696b2.png -80,172,-51,379,3

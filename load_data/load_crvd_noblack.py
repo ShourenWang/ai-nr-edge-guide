@@ -171,10 +171,18 @@ class loadImgs(Dataset):
 		image, label, noisy_level = decode_data(self.data_name,self.trainflag,self.full_res)
 		self.image = image
 		self.label = label
+
 		self.noisy_level = noisy_level
 		return self.image, self.label, self.noisy_level
 
-
+def bayer_preserving_augmentation(raw, aug_mode):
+	if aug_mode == 0:  # horizontal flip
+		aug_raw = np.flip(raw, axis=1)[:, 1:-1]
+	elif aug_mode == 1:  # vertical flip
+		aug_raw = np.flip(raw, axis=0)[1:-1, :]
+	else:  # random transpose
+		aug_raw = np.transpose(raw, (1, 0))
+	return aug_raw
 ''' ====== compute psnr and ssim   ======= '''
 from scipy.stats import poisson
 from skimage.measure.simple_metrics import compare_psnr as compare_ssim
@@ -184,7 +192,8 @@ import torch.nn as nn
 
 def pack_gbrg_raw(raw):
 	#pack GBRG Bayer raw to 4 channels
-	black_level = 240
+	# black_level = 240
+	black_level = 0.0
 	white_level = 2**12-1
 	im = raw.astype(np.float32)
 	im = np.maximum(im - black_level, 0) / (white_level-black_level)

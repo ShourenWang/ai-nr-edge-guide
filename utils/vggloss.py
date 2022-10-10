@@ -3,7 +3,6 @@ import torch.nn as nn
 import torchvision.models as models
 import torchvision.transforms as transforms
 
-
 class VGG19_Extractor(nn.Module):
     def __init__(self, output_layer_list=[]):
         super(VGG19_Extractor, self).__init__()

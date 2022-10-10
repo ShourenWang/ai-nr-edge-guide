@@ -284,7 +284,6 @@ def grad_false(model, layer_name):
 	for name, param in model.named_parameters():
 		if len(layer_name) == 1:
 			if layer_name[0] in name:
-				#print(name)
 				param.requires_grad = False
 		if len(layer_name) == 2:
 			if layer_name[0] in name or layer_name[1] in name:
@@ -719,6 +718,35 @@ def line_run(model,inputs,noisemap,linesize,overlap):
 			pass
 
 	return output
+
+
+
+
+def loss_color(model, layers):       # Color Transform
+	loss_orth = torch.tensor(0., dtype = torch.float32).cuda()
+	params = {}
+	for name, param in model.named_parameters():
+		params[name] = param
+	ct = params['module.ct.net1.weight'].squeeze()
+	cti = params['module.cti.net1.weight'].squeeze()
+	weight_squared = torch.matmul(ct, cti)
+	diag = torch.eye(weight_squared.shape[0], dtype=torch.float32 ).cuda()
+	loss = ((weight_squared - diag) **2).sum()
+	loss_orth += loss
+	return loss_orth
+
+def loss_wavelet(model):                            # Frequency Transform
+	loss_orth = torch.tensor(0., dtype = torch.float32).cuda()
+	params = {}
+	for name, param in model.named_parameters():
+		params[name] = param
+	ft = params['module.ft.net1.weight'].squeeze()
+	fti = torch.cat([params['module.fti.net1.weight'],params['module.fti.net2.weight']],dim= 0).squeeze()
+	weight_squared = torch.matmul(ft, fti)
+	diag = torch.eye(weight_squared.shape[1], dtype=torch.float32 ).cuda()
+	loss=((weight_squared - diag) **2).sum()
+	loss_orth += loss
+	return loss_orth
 
 
 
